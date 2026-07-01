@@ -1,0 +1,33 @@
+Load the data and then ask basics like size dtype info etc
+EDA
+Boxplot
+yes waalon se no ke comparision mein zyada paisa le rhe hain par yes ka iqr kaafi bada hai as compared to no
+no mein bohot saare outliers hain(woh non smoker hain unse kam paisa lena chaiye par kisi aur feature ki wajah se zyada le rhe hain)
+yes waala plot kaafi upar hai no waale se toh iska mtlb paisa calculate krne ke liye smoker column imp hai
+
+Scatterplot
+Age vs charges
+see 3 separate bands of dots,there must be some feature that is dividing the data bcuz same age people have to pay different 
+Top band    → smokers with high BMI
+Middle band → smokers or people with health issues  
+Bottom band → non-smokers, healthy people
+
+BMI vs charges
+Top cloud   → smokers (high charges regardless of BMI)
+Bottom cloud → non-smokers (charges rise slowly with BMI)
+
+Histogram
+for the output column we plot the histogram or distplot we can clearly see that the data is right skewed bcuz a lot of people give a small amount and a very small section gives large sum of money
+zyada logon se kam hi paisa le rhe hain
+
+Preprocessing
+sex smoker and region are categorical columns they will have to be encoded
+sex and smoker have only 2 values so they will be label encoded they are nominal
+region has 3+ values and they are also nominal so we one hot encode them using pd.getdummies
+scaling the columns because they have different ranges
+
+Training and testing the linear model
+Linear regression cant see hidden relations you have to create them like smoker bmi interaction and the age squared
+
+
+
