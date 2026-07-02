@@ -8,6 +8,7 @@ Predicting medical insurance costs accurately is critical for both providers and
 This project transitions from a baseline **Linear Regression model (~80% R²) withot any feature engineering to a (~88.5% R²) with some engineered features** to an optimized **Random Forest Regressor**, achieving significantly higher accuracy by engineering custom interaction features.
 
 ## 🚀 Live Demo
+[text](https://health-insurance-premium-predictor-bqububebayhhgmg4rfcfxv.streamlit.app/)
 
 
 ### Key Features
