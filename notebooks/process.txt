@@ -30,4 +30,8 @@ Training and testing the linear model
 Linear regression cant see hidden relations you have to create them like smoker bmi interaction and the age squared
 
 
-
+STREAMLIT APP
+do the basic imports
+load the model using st.cache
+custom css for styling
+layout 
